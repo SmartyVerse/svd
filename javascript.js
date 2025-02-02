@@ -373,7 +373,5 @@ function generateDownloadButtons(videoData, inputUrl) {
     if (downloadContainer.innerHTML.trim() === "") {
         displayError("LINK IS NOT VALID");
         document.getElementById("container").style.display = "none";
-        // Redirecting the user to an alternative download page
-       // window.location.href = `https://vkrdownloader.xyz/download.php?vkr=${encodeURIComponent(inputUrl)}`;
     }
 }
